@@ -68,5 +68,8 @@ margin: 50px ;
   .titleOne{
     font-size: 5px;
   }
+  .titleOne a{
+    font-size:2rem;
+  }
 
 }
