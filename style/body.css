@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x:hidden;
+}
+body {
+  background-color: #ebf0f1;
+  font-family: "poppins";
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (max-width:62rem){
+  
+}

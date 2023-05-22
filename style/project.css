@@ -1,0 +1,72 @@
+#section-three{
+margin: 50px;
+}
+
+
+#section-three h1{
+  text-align: center;
+  margin: 30px ;
+}
+
+.projectOne{
+display: flex;
+justify-content: space-around;
+margin: 50px ;
+}
+.projectOne a{
+  text-decoration: none;
+ color: black;
+}
+.projectOne a:hover{
+  color: rgba(0, 0, 0, 0.349);
+}
+
+.project-img{
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 30px;
+  transition: 0.3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.project-img:hover{
+  transform: scale(1.05);
+  margin-left: 50px;
+  border-radius: 2px;
+}
+
+.titleOne{
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.titleOne:hover{
+  color: rgba(0, 0, 0, 0.349);
+  cursor: pointer;
+}
+
+@media (max-width:62rem){
+  
+  #section-three{
+    margin: 5px;
+  }
+  .projectOne{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+
+  }
+  .project-img{
+    width: 80%;
+    height: 40%;
+    
+  }
+  .projectOne p{
+    width:80% ;
+    height: 40%;
+  }
+  .titleOne{
+    font-size: 5px;
+  }
+
+}

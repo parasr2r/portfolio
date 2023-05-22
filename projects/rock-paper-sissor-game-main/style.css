@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+
+  }
+.flex-box{
+  display: flex;
+  justify-content: center;
+}
+.container-2{
+  margin: 50px;
+  border: 2px solid yellow;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+  .Title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .button-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: yellow;
+    background-color: rgb(26, 26, 26);
+    transition: 0.3s;
+    cursor: pointer;
+
+  }
+  .button-1:hover{
+    transform: scale(1.2);
+  }
+  .img{
+    width: 60px;
+    background-color: transparent;
+  }
+  .score{
+    text-align: center;
+  }
+  .result{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .result-img{
+    width: 39px;
+  }
+  .reset-button{
+    padding: 15px 25px ;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+  }
+  .reset-button:hover{
+    transform: scale(1.1);
+  }
+@media screen and (max-width: 1000px){
+
+  .button-1{
+    height: 40px;
+    width: 40px;
+  }
+  .img{
+    width: 20px;
+  }
+  .container{
+    border: 1px solid yellow;
+    border-radius: 20px;
+  }
+  body{
+    margin-top: 150px;
+  }
+}

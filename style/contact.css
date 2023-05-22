@@ -1,0 +1,8 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(62, 172, 216, 0.329);
+}
