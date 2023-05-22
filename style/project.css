@@ -63,6 +63,9 @@ margin: 50px ;
   
     
   }
+  .project-img:hover{
+    transform:scale(1.0);
+  }
   .projectOne p{
     width:80% ;
     height: 40%;
