@@ -64,7 +64,7 @@ margin: 50px ;
     
   }
   .project-img:hover{
-    transform:scale(1.0);
+    transform:scale(1);
   }
   .projectOne p{
     width:80% ;
@@ -75,7 +75,7 @@ margin: 50px ;
   }
   .titleOne a{
     font-size:2rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
 
 }
