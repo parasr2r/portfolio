@@ -36,8 +36,13 @@
   }
   #section-two img{
     height: 40%;
+    box-border: 0;
   }
-  #section-two p{
-    height: 40%;
+ #section-two img:hover{
+  transform: scale(1.0);
+ }
+  
+ #section-two p{
+  height: 40%;
   }
 }
